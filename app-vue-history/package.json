@@ -1,0 +1,38 @@
+{
+    "name": "app-vue-history",
+    "version": "0.1.0",
+    "private": true,
+    "sideEffects": false,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build --mode development"
+    },
+    "dependencies": {
+        "@2haohr/front-api": "~0.0.1",
+        "@2haohr/front-env": "~0.0.1",
+        "@2haohr/front-router": "~0.0.1",
+        "@2haohr/front-store": "~0.0.1",
+        "@2haohr/front-util": "~0.0.1",
+        "@2haohr/front-sass-variable": "~0.0.1",
+        "@2haohr/front-sass-mixin": "~0.0.1",
+        "@2haohr/front-reset-css": "~0.0.1",
+        "axios": "0.18.0",
+        "core-js": "^3.6.4",
+        "element-ui": "^2.15.0",
+        "dm-ui": "^1.0.8",
+        "vue": "^2.6.10",
+        "vue-router": "^3.1.5",
+        "vuex": "^3.1.2"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.2.0",
+        "@vue/cli-plugin-router": "~4.2.0",
+        "@vue/cli-plugin-vuex": "~4.2.0",
+        "@vue/cli-service": "~4.2.0",
+        "sass": "^1.32.8",
+        "sass-loader": "^10.1.1",
+        "babel-plugin-component": "^1.1.1",
+        "vue-template-compiler": "^2.6.11",
+        "webpack-bundle-analyzer": "^4.4.0"
+    }
+}

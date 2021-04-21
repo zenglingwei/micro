@@ -1,0 +1,32 @@
+{
+  "name": "2hao-microservice",
+  "version": "1.0.0",
+  "description": "2hao微前端",
+  "main": "index.js",
+  "scripts": {
+    "install:personnel": "cd personnel && yarn",
+    "install:history": "cd app-vue-history && yarn",
+    "install:main": "cd main && yarn",
+    "install-all": "npm-run-all install:*",
+    "upgrade:personnel": "cd personnel && yarn install",
+    "upgrade:history": "cd app-vue-history && yarn install",
+    "upgrade:main": "cd main && yarn install",
+    "upgrade-all": "npm-run-all upgrade:*",
+    "start:personnel": "cd personnel && yarn serve ",
+    "start:history": "cd app-vue-history && yarn serve",
+    "start:main": "cd main && yarn serve",
+    "start-all": "npm-run-all --parallel start:*",
+    "build:history": "cd app-vue-history && yarn build",
+    "build:main": "cd main && yarn build",
+    "build-all": "npm-run-all --parallel build:*"
+  },
+  "author": "zlw",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

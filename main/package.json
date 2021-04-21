@@ -1,0 +1,47 @@
+{
+  "name": "main",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@2haohr-major/front-theme-color": "~0.0.1",
+    "@2haohr/front-api": "~0.0.1",
+    "@2haohr/front-env": "~0.0.1",
+    "@2haohr/front-router": "~0.0.1",
+    "@2haohr/front-store": "~0.0.1",
+    "@2haohr/front-util": "~0.0.1",
+    "@2haohr/front-sass-variable": "~0.0.1",
+    "@2haohr/front-sass-mixin": "~0.0.1",
+    "@2haohr/front-reset-css": "~0.0.1",
+    "@2haohr/front-statistics": "~0.0.1",
+    "@2haohr/front-ajax-hook": "~0.0.1",
+    "@2haohr/front-performance": "~0.0.1",
+    "@2haohr/front-sentry": "~0.0.1",
+    "@2haohr/front-analysis": "~0.0.1",
+    "@2haohr/front-websocket": "~0.0.1",
+    "@2haohr/front-kf5": "~0.0.1",
+    "axios": "0.18.0",
+    "core-js": "^3.6.4",
+    "custom-event-polyfill": "^1.0.7",
+    "dm-ui": "^1.0.9",
+    "fetch-polyfill": "^0.8.2",
+    "qiankun": "^2.3.2",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2",
+    "whatwg-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-plugin-component": "^1.1.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^10.1.1",
+    "vue-template-compiler": "^2.6.12",
+    "webpack-bundle-analyzer": "^4.4.0"
+  }
+}
