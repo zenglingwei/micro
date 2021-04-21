@@ -8,6 +8,7 @@ module.exports = {
     },
     devServer: {
         port: 2001,
+        allowedHosts: ['http://106.75.175.67:2000/'],
         headers: {
             'Access-Control-Allow-Origin': '*'
         },
