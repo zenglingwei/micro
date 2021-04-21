@@ -46,7 +46,7 @@ entry().then(() => {
         [
             {
                 name: 'app-vue-hash',
-                entry: 'http://localhost:2002',
+                entry: 'http://106.75.175.67/:2002',
                 container: '#appContainer',
                 activeRule: '/app-vue-hash',
                 props: {
@@ -55,7 +55,7 @@ entry().then(() => {
             },
             {
                 name: 'app-vue-history',
-                entry: 'http://localhost:2001',
+                entry: 'http://106.75.175.67/:2001',
                 container: '#appContainer',
                 activeRule: '/app-vue-history',
                 props: {
@@ -68,7 +68,7 @@ entry().then(() => {
             },
             {
                 name: 'app-vue-personnel',
-                entry: 'http://localhost:2003',
+                entry: 'http://106.75.175.67/:2003',
                 container: '#appContainer',
                 activeRule: '/personnel',
                 props: {
@@ -81,7 +81,7 @@ entry().then(() => {
             },
             {
                 name: 'app-vue-retire',
-                entry: 'http://localhost:2004',
+                entry: 'http://106.75.175.67/:2004',
                 container: '#appContainer',
                 activeRule: '/retire',
                 props: {

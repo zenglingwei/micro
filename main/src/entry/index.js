@@ -18,11 +18,11 @@ import analysis from './analysis/'
 export const UserInfo = async ({ Vue }) => {
     const { store, trail, router, env } = Vue.$ctx
 
-    await Promise.all([
-        store.dispatch('user/permission/init'), // 更新企业信息
-        store.dispatch('corp/info/init'), // 更新企业信息
-        store.dispatch('user/info/init') // 更新用户信息
-    ])
+    // await Promise.all([
+    //     store.dispatch('user/permission/init'), // 更新企业信息
+    //     store.dispatch('corp/info/init'), // 更新企业信息
+    //     store.dispatch('user/info/init') // 更新用户信息
+    // ])
     // const corpInfo = store.state.corp.info
     // if ((!corpInfo.company_no || !corpInfo.fullname) && !trail) {
     //     location.href = '/complete-info'
